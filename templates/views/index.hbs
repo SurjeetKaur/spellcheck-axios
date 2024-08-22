@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>spellchecker</title>
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <section class="home">
+             <h2>Welcome to SpellSavvy help page!</h2>
+             <img src="./img/logo.png" id="logo-image" alt="spellcheck-logo">
+            <form id="spellcheck-form" class="index-form">
+                <textarea id="input-text" placeholder="Enter text to check mistakes" rows="5" cols="50"></textarea><br>
+                <button id="check-spelling">Check Spelling</button><br>
+                <div id="result"></div>
+            </form>
+
+        </section>   
+    </div>
+
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

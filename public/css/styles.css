@@ -1,0 +1,139 @@
+body {
+    color:black;
+    font-family: arial;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+    /*display: flex;
+    flex-direction: column;*/
+    background: linear-gradient(to bottom, #f7f7f7, #e7e7e7);
+    background-size: cover;
+    background-attachment: fixed;
+    height:auto;
+}
+
+
+/*header*/
+
+header {
+    /*margin-top: 10px;*/
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #337ab7;
+}
+
+header a {
+    
+    color: #337ab7;
+    margin-right: 16px;
+    text-decoration: none;
+    background-color: #f7f7f7;
+    font-size: 20px;
+    padding: 5px;  
+    border: 3px solid #337ab7;
+    border-radius: 10px;
+}
+
+header a:hover{
+    background-color:#87CEEB;
+    color:black;   
+}
+
+
+
+/* index*/
+.main-content {
+    text-align:center;
+    min-height:0;
+    overflow-y:auto;
+    flex-grow:1;
+}
+
+.home{
+    text-align: center;   
+    margin-bottom:20px;   
+}
+
+#logo-image{
+    height: 100px;
+    width: 100px;
+    margin-bottom:20px;
+}
+.index-form{
+    background-color:#337ab7 ;
+    padding :20px;
+    width: auto;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+
+.index-form button {
+    cursor: pointer;
+    border: 1px solid black;
+    background-color:rgb(32, 209, 32);
+    color: white;
+    padding: 8px; 
+    width:200px; 
+    margin: 20px 0;
+    height: 40px;
+}
+
+#result{
+    text-align: center;
+    color:black;
+}
+
+
+/*about*/
+
+#about-img{
+    width: 200px;
+    height: 200px;
+}
+.about-text {
+    flex: 1;
+    padding-top: 30px;
+    text-align:justify;
+    line-height: 1.5;
+  }
+
+/*help*/
+.help{
+    background-color: #337ab7 ;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    color:white;
+
+}
+.help ol{
+    list-style:none;
+    line-height:1.5;
+}
+
+.help a{
+    color:black;
+}
+
+
+
+
+/* footer*/
+footer {
+    color:black;
+    border-top: 1px solid #0a0a0a;
+    margin-top: 16px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+
+
+

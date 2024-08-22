@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Help</title>
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <section class="help">
+            <h2>Introduction</h2>
+            <p>{{helpContent}}</p>
+            <h2>Getting Started</h2>
+            <ol>
+                {{#each gettingStarted}}
+                <li>{{this}}</li>
+                
+                {{/each}}
+            </ol>
+            <h2>Tips and Tricks</h2>
+            <ol>
+                {{#each tipsTricks}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ol>
+             
+            <h2>Contact Us</h2>
+            <p>For any questions or concerns, please contact us at <a href="mailto:surjeetkaur961@gmail.com">surjeetkaur961@gmail.com</a></p>
+        </section>   
+    </div>
+    
+    {{>footer}}
+</body>
+
+</html>
